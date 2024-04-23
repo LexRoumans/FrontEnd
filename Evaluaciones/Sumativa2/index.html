@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>INACAPLudi</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="scripts/form.js"></script>
+</head>
+
+<body>
+    <header>
+        <h1>INACAPLudi</h1>
+    </header>
+    <nav>
+        <ul>
+            <li><a href="#">Inicio</a></li>
+            <li><a href="games.html">Juegos</a></li>
+            <li><a href="About.html">Acerca de</a></li>
+        </ul>
+    </nav>
+    <table>
+        <tr>
+            <th><img src="img\Logot.png" alt="Logo InacapLudi" style="width: 255px; height: 199px;"></th>
+            <th>Somos el club oficial de juegos de mesa y rol de INACAP<br>
+                Inscribete y comienza a vivir la diversión<br><br>
+
+                <div id="form">
+                    <form id="call2action" onsubmit="return sendForm(this);">
+                        <div>
+                            <span><label for="form_name">Tu nombre:</label></span>
+                            <span><input type="text" id="form_name" name="form_name" /></span>
+                        </div>
+                        <div>
+                            <span><label for="form_email">Tu e-mail:</label></span>
+                            <span><input type="text" id="form_email" name="form_email" /></span>
+                        </div>
+                        <div>
+                            <span><label for="form_game">Me gusta jugar:</label></span>
+                            <span>
+                                <select id="form_game" name="form_game">
+                                    <option value="">Selecciona el tipo de juego</option>
+                                    <option value="de Cartas">Juegos de Cartas</option>
+                                    <option value="Cooperativos">Juegos Cooperativos</option>
+                                    <option value="Temáticos">Juegos Temáticos</option>
+                                    <option value="de Estrategia">Juegos de Estrategia</option>
+                                    <option value="de Aventura">Juegos de Aventura</option>
+                                    <option value="de Acertijos">Juegos de Acertijos</option>
+                                    <option value="Tradicionales">Juegos Tradicionales</option>
+                                    <option value="de Rol">Juegos de Rol</option>
+                                </select>
+                            </span>
+                        </div>
+                        <div>
+                            <span><button type="submit" name="submit">Enviar</button></span>
+                        </div>
+                    </form>
+                </div>
+                <div id="gift" style="display: none;">
+                    <p>
+                        Gracias por enviarnos tus datos, <span id="contact_name" style="font-weight: bold;"></span>.
+                        Notamos que te apasionan los Juegos <span id="contact_game" style="font-weight: bold;"></span>.
+                        Nos contactaremos contigo a la brevedad usando tu dirección <span id="contact_email"
+                            style="font-weight: bold;"></span>.
+                    </p>
+                    <p>
+                        Y no olvides que tenemos para tí un regalo por tu interés:
+                    </p>
+                    <h2>
+                        <a href="https://quejuegosdemesa.com/instrucciones/" target="_blank">
+                            Descarga aquí instrucciones de juegos de mesa
+                        </a>
+                    </h2>
+                </div>
+            </th>
+        </tr>
+
+    </table>
+    <br>
+    <table>
+        <tr>
+            <th>Alguna de nuestras actividades son:<br>
+                <li>Generar espacios de encuentros en donde podamos compartir y jugar partidas de nuestro juego favorito
+                </li>
+                <li>Eventos por sedes en donde podemos reunirnos como club y poder jugar libremente durante una jornada
+                    extraprogramática</li>
+                <li>Eventos Inter-sedes, ya sea regionales o nacionales, en donde contamos con la participación de cada
+                    uno de los clubes (un evento al año que comienza el viernes y termina el sábado por la noche</li>
+            </th>
+            <th><iframe width="450" height="275" src="https://www.youtube.com/embed/orR0CLixHAc?si=y77FsV2LiOiKIafw"
+                    title="YouTube video player" frameborder="0"
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                    referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe></th>
+        </tr>
+
+    </table>
+
+    <br>
+
+    <table>
+        <tr>
+            <th><img src="img\QR.png" alt="QR" style="width: 250px; height: 250px;"></th>
+            <th>Puedes evaluar constantemente nuestras actividades a tráves de nuestro código QR<br>
+                Tu opinión nos ayuda a mejorar y ser un Club en donde todos tengamos opinión</th>
+
+        </tr>
+
+    </table>
+
+    <footer>
+        <p>&copy; Página de uso excluivo para evaluación sumativa n°2<br>
+        Dudas y/o consultas al +569 3130 9383 o al correo consultas@inacapludi.com</p>
+    </footer>
+</body>
+
+</html>
